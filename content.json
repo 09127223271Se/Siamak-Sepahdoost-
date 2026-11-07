@@ -1,0 +1,449 @@
+{
+  "person": {
+    "firstName": "Siamak",
+    "lastName": "Sepahdoost",
+    "headline": "Carbon fibre · Composites · Detailing",
+    "location": "Helsingborg, Sweden",
+    "photo": "img/portrait-cut.webp",
+    "intro": "Five years in carbon fibre, composites, detailing and PPF. I lay up, repair, refinish and protect the parts people care about most, and I build tools that make car parts easier to find.",
+    "short": "From the first ply to the final polish.",
+    "stats": [
+      {
+        "value": "5 yrs",
+        "label": "Carbon fibre & composites",
+        "style": "light"
+      },
+      {
+        "value": "5 yrs",
+        "label": "Detailing & PPF",
+        "style": "dark"
+      }
+    ]
+  },
+  "socials": {
+    "instagram": "",
+    "linkedin": "https://www.linkedin.com/in/siamak-sepahdoost-984b4220a",
+    "tiktok": "",
+    "github": "https://github.com/09127223271Se",
+    "email": ""
+  },
+  "materials": [
+    {
+      "name": "280 g twill",
+      "tag": "Visible layer",
+      "image": "img/s-twill-closeup.webp",
+      "text": "The classic carbon look. A 2×2 twill weave used as the top ply that everyone sees."
+    },
+    {
+      "name": "UD carbon",
+      "tag": "Unidirectional",
+      "image": "img/s-ud.webp",
+      "text": "Every fibre runs one way. Maximum stiffness exactly along the load path."
+    },
+    {
+      "name": "Aramid",
+      "tag": "Kevlar",
+      "image": "img/s-aramid.webp",
+      "text": "Gold aramid fibre. Very tough and impact-resistant, and notoriously hard to cut and sand."
+    },
+    {
+      "name": "Dyneema",
+      "tag": "UHMWPE",
+      "image": "img/s-dyneema.webp",
+      "text": "Ultra-light polyethylene fibre with high cut and impact resistance."
+    },
+    {
+      "name": "10-ply carbon",
+      "tag": "Laminate",
+      "image": "img/s-10layer.webp",
+      "text": "Ten plies laminated into one thick, rigid panel."
+    },
+    {
+      "name": "Structural lay-up",
+      "tag": "10 layers",
+      "image": "img/s-structural.webp",
+      "text": "A lay-up built for parts that carry real load."
+    },
+    {
+      "name": "Carbon + Divinycell",
+      "tag": "Foam core 3 mm",
+      "image": "img/s-divinycell.webp",
+      "text": "Carbon skins over a 3 mm foam core. A sandwich that is stiff, light and quiet."
+    },
+    {
+      "name": "Honeycomb core",
+      "tag": "22 mm",
+      "image": "img/s-honeycomb.webp",
+      "text": "Honeycomb core for the highest stiffness at the lowest weight."
+    }
+  ],
+  "layup": {
+    "image": "img/prepreg-layup.webp",
+    "steps": [
+      {
+        "name": "Surface ply",
+        "text": "Pre-preg carbon weave, cured at 120 °C. This is the face of the part.",
+        "image": "img/layers/L1-surface.webp",
+        "edge": "#1B1C1F",
+        "thickness": 8
+      },
+      {
+        "name": "Core",
+        "text": "3 mm Divinycell foam adds thickness and stiffness for almost no weight.",
+        "image": "img/layers/L2-core.webp",
+        "edge": "#C9B48A",
+        "thickness": 26
+      },
+      {
+        "name": "Backing plies",
+        "text": "Two more layers of pre-preg carbon close the sandwich.",
+        "image": "img/layers/L3-backing.webp",
+        "edge": "#232427",
+        "thickness": 10
+      },
+      {
+        "name": "Release film",
+        "text": "Unperforated, Teflon-treated film that peels cleanly off the cured part.",
+        "image": "img/layers/L4-release.png",
+        "edge": "#9FA8D8",
+        "thickness": 3
+      },
+      {
+        "name": "Breather",
+        "text": "A fleece that lets trapped air travel out of the laminate.",
+        "image": "img/layers/L5-breather.webp",
+        "edge": "#D9D6CF",
+        "thickness": 8
+      },
+      {
+        "name": "Vacuum bag",
+        "text": "Sealed with vacuum tape and pulled down, so every layer bonds tight.",
+        "image": "img/layers/L6-bag.png",
+        "edge": "#111111",
+        "thickness": 4
+      }
+    ]
+  },
+  "services": [
+    {
+      "name": "Lay-up & lamination",
+      "text": "Pre-preg and wet lay-up, foam and honeycomb cores, vacuum bagging."
+    },
+    {
+      "name": "Repair & fibre replacement",
+      "text": "Cracked or delaminated carbon cut back, re-fibred and blended in."
+    },
+    {
+      "name": "Sanding & polishing",
+      "text": "Step-by-step wet sanding to a mirror finish without cutting into the weave."
+    },
+    {
+      "name": "Clear coat & lacquer",
+      "text": "UV-stable clear coats that bring out depth and stop yellowing."
+    },
+    {
+      "name": "Paint & patterns",
+      "text": "Colour, tints and custom designs on carbon: stripes, fades, partial paint."
+    },
+    {
+      "name": "Detailing",
+      "text": "Paint correction, deep cleaning and protection inside and out."
+    },
+    {
+      "name": "PPF",
+      "text": "Paint protection film that keeps paint and carbon safe from chips and scratches."
+    }
+  ],
+  "finish": {
+    "image": "img/weave-closeup.webp",
+    "title": "Finish is everything",
+    "text": "Glass-fibre twill under a deep clear coat. A good part is decided in the last millimetre: the sanding, the clear coat, the way the weave catches the light.",
+    "material": "Glass-fibre twill (\"white carbon\")"
+  },
+  "journey": [
+    {
+      "period": "Now",
+      "title": "Founder, PACAR",
+      "text": "Building an AI car-parts platform: take a photo of a part and get the right replacement."
+    },
+    {
+      "period": "5 years",
+      "title": "Carbon fibre & composites",
+      "text": "Lay-up, repair, refinishing and custom finishes on carbon, aramid and Dyneema."
+    },
+    {
+      "period": "5 years",
+      "title": "Detailing & PPF",
+      "text": "Paint correction, protection film and finishing work."
+    },
+    {
+      "period": "Earlier",
+      "title": "Add your earlier work here",
+      "text": "Open the editor and add jobs, courses and projects with years."
+    }
+  ],
+  "projects": [
+    {
+      "name": "PACAR",
+      "tag": "AI · Car parts",
+      "text": "A car-parts shop where AI identifies the part from a photo and checks that it fits your car.",
+      "link": ""
+    },
+    {
+      "name": "PACAR Lab",
+      "tag": "Video",
+      "text": "Short videos that explain car parts: what they do, what goes wrong and how to choose.",
+      "link": ""
+    },
+    {
+      "name": "Websites",
+      "tag": "Web",
+      "text": "Sites for businesses in Sweden, built with AI tools and a focus on design.",
+      "link": ""
+    }
+  ],
+  "next": "Next up: launching PACAR in Sweden, growing PACAR Lab, and taking on more carbon fibre and finishing projects.",
+  "theme": {
+    "accent": "#9A7426",
+    "background": "#ECEDEF",
+    "panel": "rgba(255,255,255,.52)",
+    "heroLight": "#FFFFFF",
+    "heroMid": "#EEF0F3",
+    "heroDark": "#D3D7DD"
+  },
+  "palette": {
+    "tones": 8,
+    "finishes": [
+      {
+        "name": "Gloss",
+        "image": "img/mat/base-carbon.webp"
+      },
+      {
+        "name": "Satin",
+        "image": "img/mat/base-carbon-matte.webp"
+      }
+    ],
+    "families": [
+      {
+        "name": "Emerald",
+        "hex": "#1E9E7A"
+      },
+      {
+        "name": "British green",
+        "hex": "#1F6B45"
+      },
+      {
+        "name": "Teal",
+        "hex": "#138A9C"
+      },
+      {
+        "name": "Cobalt",
+        "hex": "#2350B8"
+      },
+      {
+        "name": "Midnight",
+        "hex": "#24307A"
+      },
+      {
+        "name": "Violet",
+        "hex": "#6A2FB5"
+      },
+      {
+        "name": "Magenta",
+        "hex": "#B0287A"
+      },
+      {
+        "name": "Racing red",
+        "hex": "#C0283A"
+      },
+      {
+        "name": "Burgundy",
+        "hex": "#7A1A2B"
+      },
+      {
+        "name": "Orange",
+        "hex": "#E06A1E"
+      },
+      {
+        "name": "Gold",
+        "hex": "#D9A21B"
+      },
+      {
+        "name": "Bronze",
+        "hex": "#9A6A2E"
+      },
+      {
+        "name": "Silver",
+        "hex": "#9AA0A8",
+        "natural": true
+      },
+      {
+        "name": "Graphite",
+        "hex": "#3A3D42",
+        "natural": true
+      }
+    ],
+    "materials": [
+      {
+        "name": "Leather",
+        "image": "img/mat/base-leather.webp"
+      },
+      {
+        "name": "Perforated",
+        "image": "img/mat/base-leather-perforated.webp"
+      },
+      {
+        "name": "Quilted",
+        "image": "img/mat/base-leather-quilted.webp"
+      },
+      {
+        "name": "Alcantara",
+        "image": "img/mat/base-alcantara.webp"
+      },
+      {
+        "name": "Brushed aluminium",
+        "image": "img/mat/alu-brushed.webp",
+        "tint": false
+      },
+      {
+        "name": "Polished aluminium",
+        "image": "img/mat/alu-polished.webp",
+        "tint": false
+      }
+    ],
+    "leatherColours": [
+      {
+        "name": "Black",
+        "hex": "#1C1C1E"
+      },
+      {
+        "name": "Graphite",
+        "hex": "#4A4C50"
+      },
+      {
+        "name": "Cognac",
+        "hex": "#8A4B23"
+      },
+      {
+        "name": "Tan",
+        "hex": "#B07A45"
+      },
+      {
+        "name": "Orange",
+        "hex": "#E36A1E"
+      },
+      {
+        "name": "Red",
+        "hex": "#9E1C28"
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#5A1420"
+      },
+      {
+        "name": "Navy",
+        "hex": "#1F3550"
+      },
+      {
+        "name": "Cream",
+        "hex": "#E6DCC6"
+      },
+      {
+        "name": "White",
+        "hex": "#F2F0EA"
+      }
+    ],
+    "stitches": [
+      {
+        "name": "Orange",
+        "hex": "#E36A1E"
+      },
+      {
+        "name": "Red",
+        "hex": "#D12A3A"
+      },
+      {
+        "name": "White",
+        "hex": "#F2F0EA"
+      },
+      {
+        "name": "Yellow",
+        "hex": "#E8B530"
+      },
+      {
+        "name": "Blue",
+        "hex": "#2F6BE0"
+      },
+      {
+        "name": "Black",
+        "hex": "#111111"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Graphite × orange leather",
+        "family": 13,
+        "tone": 4,
+        "material": 0,
+        "colour": 4,
+        "stitch": 2
+      },
+      {
+        "name": "Emerald × black, orange stitch",
+        "family": 0,
+        "tone": 3,
+        "material": 0,
+        "colour": 0,
+        "stitch": 0
+      },
+      {
+        "name": "Cobalt × white alcantara",
+        "family": 3,
+        "tone": 4,
+        "material": 3,
+        "colour": 9,
+        "stitch": 4
+      },
+      {
+        "name": "Burgundy × cream quilted",
+        "family": 8,
+        "tone": 3,
+        "material": 2,
+        "colour": 8,
+        "stitch": 0
+      },
+      {
+        "name": "Silver × polished aluminium",
+        "family": 12,
+        "tone": 3,
+        "material": 5,
+        "colour": 0,
+        "stitch": 0
+      }
+    ]
+  },
+  "gallery": [
+    {
+      "title": "Full-carbon bonnet",
+      "tag": "Exposed twill",
+      "image": "img/g-hood.webp"
+    }
+  ],
+  "detailing": {
+    "title": "Scratches out. Mirror in.",
+    "text": "Aluminium and metal trim polished step by step: swirls and fine scratches cut away, then finished to a mirror and protected.",
+    "before": "img/mat/alu-scratched.webp",
+    "after": "img/mat/alu-polished.webp"
+  },
+  "marquee": [
+    "CARBON",
+    "ARAMID",
+    "DYNEEMA",
+    "GLASS FIBRE",
+    "LEATHER",
+    "ALCANTARA",
+    "ALUMINIUM",
+    "CLEAR COAT",
+    "PPF"
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "file": "img/layers/L1-surface.webp",
+    "name": "Surface ply",
+    "edge": "#1B1C1F"
+  },
+  {
+    "file": "img/layers/L2-core.webp",
+    "name": "Divinycell core",
+    "edge": "#C9B48A"
+  },
+  {
+    "file": "img/layers/L3-backing.webp",
+    "name": "Backing plies",
+    "edge": "#232427"
+  },
+  {
+    "file": "img/layers/L4-release.png",
+    "name": "Release film",
+    "edge": "#9FA8D8"
+  },
+  {
+    "file": "img/layers/L5-breather.webp",
+    "name": "Breather",
+    "edge": "#D9D6CF"
+  },
+  {
+    "file": "img/layers/L6-bag.png",
+    "name": "Vacuum bag",
+    "edge": "#111111"
+  }
+]

@@ -1,0 +1,178 @@
+# Pages CMS config: lets Siamak edit content.json and upload images at app.pagescms.org
+media:
+  input: img
+  output: img
+content:
+  - name: site
+    label: My website
+    type: file
+    path: content.json
+    format: json
+    fields:
+      - name: person
+        label: About me
+        type: object
+        fields:
+          - { name: firstName, label: First name, type: string }
+          - { name: lastName, label: Last name, type: string }
+          - { name: headline, label: Headline, type: string }
+          - { name: location, label: Location, type: string }
+          - { name: photo, label: Photo, type: image }
+          - { name: intro, label: Intro text, type: text }
+          - { name: short, label: Short line under headline, type: string }
+          - name: stats
+            label: Experience boxes
+            type: object
+            list: true
+            fields:
+              - { name: value, label: Number (e.g. 5 yrs), type: string }
+              - { name: label, label: Label, type: string }
+              - { name: style, label: Style (light or dark), type: string }
+      - name: socials
+        label: Social links
+        type: object
+        fields:
+          - { name: instagram, label: Instagram URL, type: string }
+          - { name: linkedin, label: LinkedIn URL, type: string }
+          - { name: tiktok, label: TikTok URL, type: string }
+          - { name: github, label: GitHub URL, type: string }
+          - { name: email, label: Email, type: string }
+      - name: materials
+        label: Materials
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: tag, label: Small label, type: string }
+          - { name: image, label: Photo (transparent PNG/WebP looks best), type: image }
+          - { name: text, label: Description, type: text }
+      - name: layup
+        label: Lay-up section
+        type: object
+        fields:
+          - { name: image, label: Photo, type: image }
+          - name: steps
+            label: Layers
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Layer, type: string }
+              - { name: text, label: Description, type: text }
+              - { name: image, label: Layer texture, type: image }
+              - { name: edge, label: Edge colour, type: string }
+              - { name: thickness, label: Thickness (px), type: number }
+      - name: services
+        label: Services
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Service, type: string }
+          - { name: text, label: Description, type: text }
+      - name: finish
+        label: Finishing banner
+        type: object
+        fields:
+          - { name: image, label: Photo, type: image }
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+      - name: journey
+        label: Journey / CV
+        type: object
+        list: true
+        fields:
+          - { name: period, label: Years (e.g. 2019–2023 or Now), type: string }
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Description, type: text }
+      - name: projects
+        label: Projects
+        type: object
+        list: true
+        fields:
+          - { name: name, label: Name, type: string }
+          - { name: tag, label: Small label, type: string }
+          - { name: text, label: Description, type: text }
+          - { name: link, label: Link (optional), type: string }
+      - { name: next, label: What's next, type: text }
+      - name: theme
+        label: Design colours
+        type: object
+        fields:
+          - { name: accent, label: Accent colour (hex), type: string }
+          - { name: background, label: Page background (hex), type: string }
+          - { name: panel, label: Card colour (hex), type: string }
+          - { name: heroLight, label: Top section light colour, type: string }
+          - { name: heroMid, label: Top section mid colour, type: string }
+          - { name: heroDark, label: Top section dark colour, type: string }
+      - name: palette
+        label: Colour book & material studio
+        type: object
+        fields:
+          - { name: tones, label: Shades per colour (light to dark), type: number }
+          - name: families
+            label: Carbon colour families
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: hex, label: "Colour code (e.g. #1E9E7A)", type: string }
+              - { name: natural, label: Keep grey (no tint), type: boolean }
+          - name: finishes
+            label: Carbon finishes
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: image, label: Grey texture, type: image }
+          - name: materials
+            label: Materials next to carbon
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: image, label: Texture, type: image }
+              - { name: tint, label: Colour it with leather colour, type: boolean }
+          - name: leatherColours
+            label: Leather colours
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: hex, label: Colour code, type: string }
+          - name: stitches
+            label: Stitch colours
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: hex, label: Colour code, type: string }
+          - name: presets
+            label: Ready-made combinations
+            type: object
+            list: true
+            fields:
+              - { name: name, label: Name, type: string }
+              - { name: family, label: Colour family number (0 = first), type: number }
+              - { name: tone, label: Shade number (0 = lightest), type: number }
+              - { name: material, label: Material number, type: number }
+              - { name: colour, label: Leather colour number, type: number }
+              - { name: stitch, label: Stitch number, type: number }
+      - name: detailing
+        label: Before / after slider
+        type: object
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: text, label: Text, type: text }
+          - { name: before, label: Before photo, type: image }
+          - { name: after, label: After photo, type: image }
+      - name: marquee
+        label: Moving words band
+        type: string
+        list: true
+      - name: gallery
+        label: Work gallery
+        type: object
+        list: true
+        fields:
+          - { name: title, label: Title, type: string }
+          - { name: tag, label: Small label, type: string }
+          - { name: image, label: Photo, type: image }
