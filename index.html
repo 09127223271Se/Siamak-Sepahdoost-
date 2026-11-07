@@ -747,7 +747,7 @@ function render(c){
   document.getElementById('next').textContent=c.next;
   const L=document.getElementById('links');
   let h=Object.keys(LABELS).filter(show).map(k=>S[k]?`<a href="${esc(S[k])}" target="_blank" rel="noopener me">${LABELS[k]}<span class="arr">↗</span></a>`:`<a class="pending" href="#contact" title="Add your ${LABELS[k]} link in the editor">${LABELS[k]}<span class="arr">soon</span></a>`).join('');
-  if(S.email) h=`<div class="mail"><code id="em">${esc(S.email)}</code><button type="button" id="copyEm">Copy</button></div>`+h;
+  if(S.email) h=`<div class="mail"><a href="mailto:${esc(S.email)}" style="text-decoration:none;color:inherit;min-width:0"><code id="em">${esc(S.email)}</code></a><button type="button" id="copyEm">Copy</button></div>`+h;
   L.innerHTML=h;
   const cb=document.getElementById('copyEm');
   if(cb) cb.addEventListener('click',()=>{const t=S.email;try{navigator.clipboard.writeText(t).then(()=>cb.textContent='Copied',()=>{})}catch(e){}});
